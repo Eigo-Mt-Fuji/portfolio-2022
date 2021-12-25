@@ -34,6 +34,29 @@
    - 拡張現実の技術は、nreal lightだからunlty? それとも[web ar?](https://github.com/Eigo-Mt-Fuji/portfolio-2021/blob/main/docs/README-%E5%80%8B%E4%BA%BA%E5%AD%A6%E7%BF%92-20211215.md#1219-%E6%8B%A1%E5%BC%B5%E7%8F%BE%E5%AE%9Far%E3%81%AEsdk%E3%82%92%E8%AA%BF%E6%9F%BB%E3%81%99%E3%82%8B-web-ar-%E7%B7%A8)
    - 2021に会員証システム作った経験。喫茶店好き。ネコ好きを合わせる
 
-## 付録: にゃんこ四季報
+## 付録: にゃんこ四季報[twitter/geranote](https://mobile.twitter.com/geranote)
 
-https://twitter.com/geranote
+- 始業
+
+![img](./img/cat_begin.jpg)
+
+- 1月: にゃんこ x 雪見だいふく
+
+![img](./img/cat_202202.jpg)
+
+- 2月
+- 3月
+- 4月
+- 5月
+- 6月
+- 7月
+- 8月
+- 9月
+- 10月
+- 11月
+- 12月
+
+- 修了
+
+![img](./img/cat_end.jpg)
+
