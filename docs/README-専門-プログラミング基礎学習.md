@@ -1,3 +1,7 @@
+## TypeScript handbook
+
+https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+
 ## JavaScript Primer 
 
 https://jsprimer.net/
