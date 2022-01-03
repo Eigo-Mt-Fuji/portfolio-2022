@@ -16,7 +16,7 @@ STEP4 実現方法がわかる https://baasinfo.net/?p=3791#outline__3_1
   - スマートコントラクトへアクセスするためのクライアントツール(web3.js)の学習
   - 開発フレームワーク(Truffle)の学習
 
-STEP5 開発の要点がわかる https://baasinfo.net/?p=3791#outline__3_1
+STEP5 開発の要点がわかる https://baasinfo.net/?p=3791#outline__3_1 https://speakerdeck.com/okapies/nfttohahe-dehanaika?slide=12
 
 1. はじめに
 2. そもそもブロックチェーンとは
