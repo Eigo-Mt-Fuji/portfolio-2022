@@ -7,6 +7,10 @@
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/9OR5fqDQl9Y/0.jpg)](https://www.youtube.com/watch?v=9OR5fqDQl9Y "Video Title")
 
+ボクたちだけのエンジニア流 **フルコース** を作っていく!
+
+<img width=400 src="./docs/Screenshot_20220104-023137.jpg" />
+
 ## ライフワーク-人間的目標
 
 - 脳トレ-脳の処理速度を高めるトレーニング
