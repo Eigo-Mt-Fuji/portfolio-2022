@@ -4,7 +4,7 @@
 
 STEP1 身近な接点 実物を手元に。
 
-STEP2 おもしろさがある
+STEP2 おもしろさがある https://twitter.com/loblium/status/1476872406937780231?t=f6Z2_TukWCf0LbumxEKAMw&s=19
 
 STEP3 利用シーン
 
