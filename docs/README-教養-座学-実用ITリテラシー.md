@@ -9,3 +9,10 @@
     - GraphQL Security https://www.howtographql.com/advanced/4-security/
     - JWT https://jwt.io/introduction
     - Websocket https://research.securitum.com/websocket-protocol-security-in-practice/
+
+- 通信プロトコル
+  - HTTP2/gRPC
+    - https://cloud.google.com/blog/products/api-management/understanding-grpc-openapi-and-rest-and-when-to-use-them
+
+- ソフトウェア・アーキテクチャ
+  - GraphQL https://github.com/Eigo-Mt-Fuji/portfolio-2021/blob/main/docs/README-GraghQL%E5%9F%BA%E7%A4%8E.md
