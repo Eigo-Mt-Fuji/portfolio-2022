@@ -49,3 +49,20 @@ XRと仲良くなるための７つのステップ。おやくそく。
 - 使用するファイルの形式も様々。たとえばインターネットのJPEGのように、形式や規格を統一したり、様々なプラットフォームで使えるようにすることが課題。
 - 主要なプレイヤーとしては、Metaや『フォートナイト』を手がけるEpic Games、Apple、Snapchatなど
 - - 体験するデバイスによって没入感が全く異なる点に注意。同じ内容でも、スマホなど画面を眺めるだけのデバイスと比べて異次元の体験になります。また、仮想空間上であり、アバターを使用しているとはいえ、人と人がコミュニケーションをとるという点では現実と変わらず、何をしてもいいわけではありません。実際、異常に顔を近づけてくるような嫌がらせ行為や、セクハラ被害に遭った人もいます
+
+- Need for a C++ 3D Rendering Engine Object8 renderer, 8th Wall's rendering engine 
+    - For understanding SLAM algorithms, 3D visualization is critical.
+      - It's important for us to have a 3D engine that is portable to desktop, mobile native and the web
+         - which means it needs to be written in C++.
+             - Traditionally, C++ 3D renderers have been part of game engines, which provide complex application runtimes. 
+             - It can be difficult to separate the rendering components of things like Unity or Godot, 
+             - and build them 
+             - as lightweight, cross platform, standalone
+             - renderers. 
+         - The closest thing we were able to find to a pure C++ renderer was Filament by Google, but it too was not built to separate the runtime from the renderer. 
+      - In contrast, there are a number of excellent, standalone rendering engines on the Web,
+         - notably three.js and Babylon.js, 
+         - but these would not be easy to port to ImGui or native mobile apps. 
+         - To solve this problem and meet our expanding needs for excellent computer vision algorithm visualization, 
+         - we built a new in-house rendering engine in C++ from scratch. 
+         - Called the Object8 renderer, 8th Wall's rendering engine allows 3D scenes to be specified compactly in an ergonomic, declarative C++ API. In addition to supporting 3D scenes, it has APIs to directly position objects in clip space, which is useful for drawing a camera feed behind a scene, or for overlaying 2D content on top of a scene. A subscene referencing system allows the renderer to be used to generate complex layouts, and is even powerful enough to support the next generation of GPU shaders for computer vision at 8th Wall.
