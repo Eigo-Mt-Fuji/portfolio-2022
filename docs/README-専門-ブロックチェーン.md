@@ -6,6 +6,8 @@ STEP1 身近な接点 実物を手元に。
 
 STEP2 おもしろさがある https://twitter.com/loblium/status/1476872406937780231?t=f6Z2_TukWCf0LbumxEKAMw&s=19
 
+<img width=300 src="./Screenshot_20220103-104542_Kiwi%20Browser.jpg"/>
+
 STEP3 利用シーン
 
 STEP4 実現方法がわかる https://baasinfo.net/?p=3791#outline__3_1
