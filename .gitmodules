@@ -1,3 +1,6 @@
 [submodule "warp/2021"]
 	path = warp/2021
 	url = git@github.com:Eigo-Mt-Fuji/portfolio-2021.git
+[submodule "playground/milano-app"]
+	path = playground/milano-app
+	url = git@github.com:Eigo-Mt-Fuji/milano-app.git
