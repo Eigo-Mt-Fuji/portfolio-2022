@@ -27,3 +27,8 @@ https://remix.run/
 
 https://www.twilio.com/blog/react-svelte-comparing-basics-jp
 
+## Remix vs Nextjs
+
+https://sergiodxa.com/articles/remix-vs-next-js-comparison
+
+
