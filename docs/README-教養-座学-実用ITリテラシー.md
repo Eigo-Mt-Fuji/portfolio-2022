@@ -1,3 +1,6 @@
+- Web3
+  - https://web3.foundation/about/
+
 - AI・機械学習
   - https://github.com/Eigo-Mt-Fuji/aiml-training
 
