@@ -31,4 +31,7 @@ https://www.twilio.com/blog/react-svelte-comparing-basics-jp
 
 https://sergiodxa.com/articles/remix-vs-next-js-comparison
 
+## Gatsby vs Remix
+
+https://medium.com/eincode/next-js-vs-gatsby-js-frameworks-all-you-need-to-know-4147f36ed915
 
