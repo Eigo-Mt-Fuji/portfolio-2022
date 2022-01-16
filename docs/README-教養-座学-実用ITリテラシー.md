@@ -1,6 +1,7 @@
 - Web3
   - https://web3.foundation/about/
-
+- WASM/WASI
+  - https://thinkit.co.jp/article/17486
 - AI・機械学習
   - https://github.com/Eigo-Mt-Fuji/aiml-training
 
