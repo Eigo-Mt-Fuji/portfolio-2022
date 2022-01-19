@@ -1,4 +1,4 @@
-- Web3
+- 現在:Web2.0 -> 次世代:Web3
   - https://web3.foundation/about/
 - WASM/WASI
   - https://thinkit.co.jp/article/17486
