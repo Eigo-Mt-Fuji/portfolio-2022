@@ -41,7 +41,7 @@ STEP5 開発の要点がわかる https://baasinfo.net/?p=3791#outline__3_1 http
 3.8. 7. その他、Quorum, Corda, HyperledgerなどのEthereum以外のブロックチェーンの学習
 4. 終わりに
 
-STEP6 開発の課題がわかる
+STEP6 開発の課題がわかる https://gigazine.net/news/20220125-opensea-user-steal-nfts/
 
 STEP7 さあがんばろう！
 
