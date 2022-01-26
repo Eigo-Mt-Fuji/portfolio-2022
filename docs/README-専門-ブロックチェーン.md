@@ -11,7 +11,7 @@ STEP2 おもしろさがある https://twitter.com/loblium/status/14768724069377
 STEP3 利用シーン
 https://twitter.com/yusuket777/status/1478520432089190401?t=y700SKhbi__jg0wK79fDaA&s=19
 
-STEP4 実現方法がわかる https://baasinfo.net/?p=3791#outline__3_1
+STEP4 実現方法がわかる https://baasinfo.net/?p=3791#outline__3_1 https://symbolplatform.com/
   - ビットコイン(ブロックチェーン)の概念の学習
   - イーサリアムとスマートコントラクトの概念の学習
   - イーサリアムノード(Geth)の学習
