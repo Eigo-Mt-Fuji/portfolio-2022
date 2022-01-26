@@ -9,7 +9,8 @@ STEP2 おもしろさがある https://twitter.com/loblium/status/14768724069377
 <img width=300 src="./Screenshot_20220103-104542_Kiwi%20Browser.jpg"/>
 
 STEP3 利用シーン
-https://twitter.com/yusuket777/status/1478520432089190401?t=y700SKhbi__jg0wK79fDaA&s=19
+https://twitter.com/yusuket777/status/1478520432089190401?t=y700SKhbi__jg0wK79fDaA&s=19 
+香取慎吾NFTチャリティ LINEブロックチェーン https://contents.atarashiichizu.com/?page_id=16397
 
 STEP4 実現方法がわかる https://baasinfo.net/?p=3791#outline__3_1 https://symbolplatform.com/
   - ビットコイン(ブロックチェーン)の概念の学習
