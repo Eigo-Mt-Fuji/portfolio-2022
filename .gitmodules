@@ -4,3 +4,6 @@
 [submodule "playground/milano-app"]
 	path = playground/milano-app
 	url = git@github.com:Eigo-Mt-Fuji/milano-app.git
+[submodule "playground/eigo-nft"]
+	path = playground/eigo-nft
+	url = git@github.com:Eigo-Mt-Fuji/eigo-nft.git
