@@ -7,3 +7,6 @@
 [submodule "playground/eigo-nft"]
 	path = playground/eigo-nft
 	url = git@github.com:Eigo-Mt-Fuji/eigo-nft.git
+[submodule "playground/fx-report"]
+	path = playground/fx-report
+	url = git@github.com:Eigo-Mt-Fuji/fx-report.git
