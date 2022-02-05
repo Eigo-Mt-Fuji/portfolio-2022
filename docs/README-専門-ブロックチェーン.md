@@ -47,3 +47,4 @@ STEP6 開発の課題がわかる https://gigazine.net/news/20220125-opensea-use
 
 STEP7 さあがんばろう！
 
+https://github.com/Eigo-Mt-Fuji/portfolio-2022/blob/main/docs/README-%E7%89%B9%E8%A8%AD%E3%83%BBLINE%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3.md#line-blockchain%E3%81%AE-%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E3%81%A8%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E3%82%92%E5%AD%A6%E3%81%B6
