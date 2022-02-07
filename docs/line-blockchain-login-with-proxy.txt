@@ -2,9 +2,19 @@
 Browser->Server: GET /linelogin
 Server->"LINE Login": Redirect to api.line.ne
 Server<-"LINE Login": callback
+
 Server->"LINE Login": GET https://api.line.me/v2/profile
 Server<-"LINE Login": userId
 Server->Cookie: Save LINE User ID into cookie
+
+Server->Server: get contractId from config
+Server->"LINE Blockchain": "GET /v1/users/{userId}/item-tokens/{contractId}/proxy"
+Server<-"LINE Blockchain": isApproved
+
+opt isApproved == true
+Browser<-Server: render home
+end
+
 Server->"LINE Blockchain": "POST /v1/users/{userId}/item-tokens/{contract_id}/request-proxy"
 Server<-"LINE Blockchain": requestSessionToken, redirectUri
 Server->Cookie: "Save requestSessionToken"
@@ -18,16 +28,27 @@ alt userid is empty
 Browser<-Server: redirect /linelogin
 end
 Server->Server: get contractId from config
-Server->Cookie: get requestSessionToken from cookie
-Server<-Cookie: requestSessionToken
 Server->"LINE Blockchain": "GET /v1/users/{userId}/item-tokens/{contractId}/proxy"
 Server<-"LINE Blockchain": isApproved
 
 alt isApproved == true
+
+Browser<-Server: render home
+
+else isApproved == false
+
+Server->Cookie: get requestSessionToken from cookie
+Server<-Cookie: requestSessionToken
+
+alt requestSessionToken is empty
+
+Browser<-Server: redirect /linelogin
+
+else other
+
 Server->"LINE Blockchain": "POST /v1/user-requests/{requestSessionToken}/commit"
 Browser<-Server: render home
-else isApproved == false
-Browser<-Server: render home
+end
 end
 
 @enduml
