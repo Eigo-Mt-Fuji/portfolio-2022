@@ -1,8 +1,10 @@
 
 @startuml
-Bob -> Alice : hello
+Browser->Server: call "/admin/invite?uid={xxxx}"
+Server->"LINE": "GET api.line.me/v2/profile"
+Server->"LINE Blockchain(BaseCoin)": "POST /v1/wallets/{wallet_address}/base-coin/transfer"
+Server->"LINE Blockchain(ServiceToken)": "POST /v1/wallets/{wallet_address}/service-tokens/{contract_id}/transfer"
+Server->"LINE Blockchain(ItemToken)": "POST /v1/item-tokens/{contract_id}/fungibles/{item_type}/mint"
+Browser<-Server: "Response Status:200"
 @enduml
 
-@startuml
-version
-@enduml
