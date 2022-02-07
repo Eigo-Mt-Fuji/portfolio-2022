@@ -1,0 +1,33 @@
+@startuml
+Browser->Server: GET /linelogin
+Server->"LINE Login": Redirect to api.line.ne
+Server<-"LINE Login": callback
+Server->"LINE Login": GET https://api.line.me/v2/profile
+Server<-"LINE Login": userId
+Server->Cookie: Save LINE User ID into cookie
+Server->"LINE Blockchain": "POST /v1/users/{userId}/item-tokens/{contract_id}/request-proxy"
+Server<-"LINE Blockchain": requestSessionToken, redirectUri
+Server->Cookie: "Save requestSessionToken"
+Server->Browser: redirect to redirectUri
+Browser->Browser: 承認
+Browser->Server: open landingPageUrl
+
+Server->Cookie: "get LINE User ID from cookie"
+Server<-Cookie: userId
+alt userid is empty
+Browser<-Server: redirect /linelogin
+end
+Server->Server: get contractId from config
+Server->Cookie: get requestSessionToken from cookie
+Server<-Cookie: requestSessionToken
+Server->"LINE Blockchain": "GET /v1/users/{userId}/item-tokens/{contractId}/proxy"
+Server<-"LINE Blockchain": isApproved
+
+alt isApproved == true
+Server->"LINE Blockchain": "POST /v1/user-requests/{requestSessionToken}/commit"
+Browser<-Server: render home
+else isApproved == false
+Browser<-Server: render home
+end
+
+@enduml
