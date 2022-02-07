@@ -430,9 +430,12 @@ curl -X POST 'localhost:8080/api/v0/ticket/purchase/commit/wlPHSLhwD6CQV2h******
 }'
 ```
 
+### 処理シーケンスを具体的に記述する
+
+![img](http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/Eigo-Mt-Fuji/portfolio-2022/main/docs/test-uml.txt)
+
 ### LINE Blockchain APIをSDK経由で実行してみる?
 
-- 処理シーケンスを具体的に記述する
 - [次に実装する](#実際にやってみる)へ
 
 ## 実際にやってみる
