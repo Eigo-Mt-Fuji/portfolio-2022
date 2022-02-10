@@ -1,7 +1,7 @@
 
-## 概要
+## 進め方
 
-* LINEブロックチェーンを使ってみる
+* STEP1 学習・理解度UP
   - LINE Blockchainの開発用チャンネル作成・申請
   - LINE Blockchainの チュートリアル読み込み
   - LINE Blockchainの サービストークンとアイテムトークンを学ぶ
@@ -9,7 +9,13 @@
   - LINE Blockchainでの商品購入を具体例に沿って理解する
   - LINKシネマのサンプルソースコードを読み込む
 
-## 理解度UP
+* STEP2: 
+  - LINEブロックチェーンで何を作るか考える
+
+* STEP3
+  - 実際にやってみる・作ってみる
+
+## STEP1 学習・理解度UP
 
 ### LINE Blockchainの開発用チャンネル作成・申請
 
@@ -442,13 +448,68 @@ curl -X POST 'localhost:8080/api/v0/ticket/purchase/commit/wlPHSLhwD6CQV2h******
 
 ### LINE Blockchain APIをSDK経由で実行してみる?
 
-- [次に実装する](#実際にやってみる)へ
+```
+ curl -v -X POST https://test-api.blockchain.line.me/v1/item-tokens/59de2003/non-fungibles/10000001/mint -H "Content-Type: application/json" -H "service-api-key: 416b9d42-d2ce-431b-800b-6757e1adf83d" -H "nonce: d23bd1ba" -H "timestamp: 1643629852531" -H 'signature: PHclZF60qHbXJxIdV/Ijesm7kftyNg4D8K8KmAU8L38EdKB2IBEsCh0Qxqms2XlQZTSdu2XYTg3UMxWcmBjZpw==' -d '{"ownerAddress":"tlink1aavw9sk4349t3swa49l3zjmzd5cl4v46uxjc4m","ownerSecret":"psip40921cEiz64+e8hJWV2L+4j1GreQ/URnpV+2ocY=","name":"EI5NFT","toAddress":"tlink1g99r4sersjjn8p6jjjp566lt2tr0pr53wh9erg"}'
+Note: Unnecessary use of -X or --request, POST is already inferred.
+*   Trying 147.92.139.88...
+* TCP_NODELAY set
+* Connected to test-api.blockchain.line.me (147.92.139.88) port 443 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /etc/ssl/cert.pem
+  CApath: none
+* TLSv1.2 (OUT), TLS handshake, Client hello (1):
+* TLSv1.2 (IN), TLS handshake, Server hello (2):
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+* TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+* TLSv1.2 (IN), TLS change cipher, Change cipher spec (1):
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: C=JP; ST=Tokyo-to; L=Shinjuku-ku; O=LINE Corporation; CN=*.blockchain.line.me
+*  start date: May 10 07:21:03 2021 GMT
+*  expire date: Jun 11 07:21:03 2022 GMT
+*  subjectAltName: host "test-api.blockchain.line.me" matched cert's "*.blockchain.line.me"
+*  issuer: C=BE; O=GlobalSign nv-sa; CN=GlobalSign RSA OV SSL CA 2018
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* Using Stream ID: 1 (easy handle 0x7f9cf8809600)
+> POST /v1/item-tokens/59de2003/non-fungibles/10000001/mint HTTP/2
+> Host: test-api.blockchain.line.me
+> User-Agent: curl/7.64.1
+> Accept: */*
+> Content-Type: application/json
+> service-api-key: 416b9d42-d2ce-431b-800b-6757e1adf83d
+> nonce: d23bd1ba
+> timestamp: 1643629852531
+> signature: PHclZF60qHbXJxIdV/Ijesm7kftyNg4D8K8KmAU8L38EdKB2IBEsCh0Qxqms2XlQZTSdu2XYTg3UMxWcmBjZpw==
+> Content-Length: 199
+> 
+* Connection state changed (MAX_CONCURRENT_STREAMS == 128)!
+* We are completely uploaded and fine
+< HTTP/2 202 
+< date: Mon, 31 Jan 2022 11:50:56 GMT
+< content-type: application/json
+< content-length: 168
+< x-ratelimit-remaining: 19
+< x-ratelimit-replenish-rate: 20
+< x-envoy-upstream-service-time: 151
+< x-envoy-decorator-operation: prod-api-gateway.link-developers.svc.cluster.local:28083/*
+< strict-transport-security: max-age=15724800; includeSubDomains
+< 
+* Connection #0 to host test-api.blockchain.line.me left intact
+{"responseTime":1643629856952,"statusCode":1002,"statusMessage":"Accepted","responseData":{"txHash":"5E3940C3A93C917DFBF238C41A7A9853524EC76CA28178593622254D7E05A734"}}* Closing connection 0
+```
 
-## 実際にやってみる
-
-https://github.com/Eigo-Mt-Fuji/eigo-nft
-
-## LINEブロックチェーンで何を作る
+## STEP2: LINEブロックチェーンで何を作るか考える
 
 - 先着配布、メンバーシップ、ストックオプション型で何かを作ればいい気がした。
   - 限られた資金で、多くの人を集める
@@ -462,3 +523,8 @@ https://github.com/Eigo-Mt-Fuji/eigo-nft
       - 何に交換できるのか、どのくらいの価値が出るのか決まっていない証券・トークンを配布する
       - 即時性のない特典要素。おしゃれやコレクション的な意味。
       - ブランドやプロダクトに期待があれば、ユーザの集客効果が期待できる
+
+## STEP3: 実際にやってみる・作ってみる
+
+https://github.com/Eigo-Mt-Fuji/eigo-nft
+
