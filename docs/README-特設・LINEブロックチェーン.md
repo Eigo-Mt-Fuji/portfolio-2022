@@ -17,7 +17,7 @@
 
 ## STEP1 学習・理解度UP
 
-### LINE Blockchain開発用チャンネル作成(申請)
+### LINE Blockchainチャンネル作成(申請)
 
 - https://developers.line.biz/console/channel/1656844866/blockchain
 
