@@ -473,9 +473,14 @@ curl -X POST 'localhost:8080/api/v0/ticket/purchase/commit/wlPHSLhwD6CQV2h******
 
 #### ログイン・プロキシ設定
 
-![img](http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/Eigo-Mt-Fuji/portfolio-2022/main/docs/line-blockchain-login-with-proxy.txt?hoge=true)
+![img](http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/Eigo-Mt-Fuji/portfolio-2022/main/docs/line-blockchain-login-with-proxy.txt)
 
 #### 購入フロー(購入リクエスト)
+
+![img](http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/Eigo-Mt-Fuji/portfolio-2022/main/docs/line-blockchain-transaction.txt)
+
+
+##### 購入リクエスト
 
 - プロキシ設定確認
   - service.GetProxySetting(userProfile.UserID, config.GetAPIConfig().ItemContractID)
@@ -494,7 +499,7 @@ curl -X POST 'localhost:8080/api/v0/ticket/purchase/commit/wlPHSLhwD6CQV2h******
 	  - 利用API: サービストークンの転送用のセッショントークンを発行する# https://docs-blockchain.line.biz/ja/api-guide/category-users/issue#v1-users-userId-service-tokens-contractId-request-transfer-post
 	    - POST /v1/users/{user_id}/service-tokens/{contract_id}/request-transfer
 
-#### 購入フロー(購入確定)
+##### 購入確定
 
 - Test Coinの決済トランザクション
   - 映画鑑賞券を購入するで承認したとおりユーザーウォレットからサービスウォレットに14TCを転送 ([コード](https://github.com/line/blockchain-sample-link-cinema/blob/master/controller/ticket.go#L325)
