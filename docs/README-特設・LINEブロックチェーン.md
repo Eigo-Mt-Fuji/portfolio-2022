@@ -682,6 +682,9 @@ Note: Unnecessary use of -X or --request, POST is already inferred.
       - 即時性のない特典要素。おしゃれやコレクション的な意味。
       - ブランドやプロダクトに期待があれば、ユーザの集客効果が期待できる
 
+- 限定１００個、NFTアート（トークン）を鋳造
+    - キャンペーンに応募してくれた先着１００名のユーザにNFTアートをプレゼント
+
 ## STEP3: 実際にやってみる・作ってみる
 
 https://github.com/Eigo-Mt-Fuji/eigo-nft
