@@ -89,6 +89,19 @@
           - サービストークンの管理権限移譲用
           - アイテムトークンの管理権限移譲用
 
+    - 補足: サービストークンの転送方法（２種類）
+      - １つは、管理権限（サービストークンを転送・焼却する権限）をあらかじめサービスに委任させた上で転送する方法。
+          - proxy設定APIとコミットAPIを使って、ユーザがサービスにサービストークン転送・焼却管理を委任する。
+	      - 委任しさえすれば、都度転送の承認を得なくても良い(はず)
+          - 「委任されたサービストークンを転送する」場合、専用のAPIを用いる
+	      - POST /v1/users/{userId}/service-tokens/{contractId}/transfer
+      - もう１つは、転送するたびにユーザに承認を求める方法
+          - リクエスト転送用APIとコミットAPIを使ってユーザに転送の承認を求める
+              - リクエスト転送用API
+	          - POST /v1/users/{userId}/service-tokens/{contractId}/request-transfer
+              - コミットAPI
+	          - POST /v1/user-requests/{requestSessionToken}/commit
+
 #### LINE Blockchainで商品購入機能を実装する方法(仕組み)を理解する
 - ウォレット内のコイン(TestCoin)で、映画鑑賞券を購入することを考える
   - 映画鑑賞券を購入するということは
@@ -462,8 +475,7 @@ curl -X POST 'localhost:8080/api/v0/ticket/purchase/commit/wlPHSLhwD6CQV2h******
 
 ![img](http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/Eigo-Mt-Fuji/portfolio-2022/main/docs/line-blockchain-login-with-proxy.txt?hoge=true)
 
-
-### 購入フロー(購入リクエスト)
+#### 購入フロー(購入リクエスト)
 
 - プロキシ設定確認
   - service.GetProxySetting(userProfile.UserID, config.GetAPIConfig().ItemContractID)
