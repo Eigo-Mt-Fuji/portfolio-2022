@@ -109,12 +109,16 @@
 ### LINKシネマのサンプルソースコードを読み込む　https://docs-blockchain.line.biz/ja/sample-services/Link-cinema
 
 - 0. 準備
-    - LINKシネマのサーバー
-        - 実行と同時にconfiguration.tomlに入力したUser IDでログイン
 
-    - 映画鑑賞券を買うには
-        - ログインしたアカウントがTest Coin（TC、base coin）や会員ポイント(MovieToken、サービス トークン)、割引クーポン(MovieDiscount、アイテムトークン)を保有する必要があります
-        - サービスウォレットに十分な資産を持っている必要があります。
+    - ソース取得 
+        - git clone https://github.com/line/blockchain-sample-link-cinema
+
+        - LINKシネマのサーバー
+            - 実行と同時にconfiguration.tomlに入力したUser IDでログイン
+
+        - 映画鑑賞券を買うには
+            - ログインしたアカウントがTest Coin（TC、base coin）や会員ポイント(MovieToken、サービス トークン)、割引クーポン(MovieDiscount、アイテムトークン)を保有する必要があります
+            - サービスウォレットに十分な資産を持っている必要があります。
 
 - 1. トークン転送
 
