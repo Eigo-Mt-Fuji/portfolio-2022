@@ -462,7 +462,27 @@ curl -X POST 'localhost:8080/api/v0/ticket/purchase/commit/wlPHSLhwD6CQV2h******
 
 ![img](http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/Eigo-Mt-Fuji/portfolio-2022/main/docs/line-blockchain-login-with-proxy.txt?hoge=true)
 
-#### 購入(購入確定)
+
+### 購入フロー(購入リクエスト)
+
+- プロキシ設定確認
+  - service.GetProxySetting(userProfile.UserID, config.GetAPIConfig().ItemContractID)
+	    - 利用API: アイテムトークンのproxy設定用のセッショントークンの状態を取得 https://docs-blockchain.line.biz/ja/api-guide/category-users/retrieve#v1-users-userId-item-tokens-contractId-proxy-get
+		  - GET /v1/users/{user_id}/item-tokens/{contract_id}/proxy
+
+- Baseコイン転送リクエスト ※Cachewだけの機能なので要注意
+  - service.RequestBaseCoinTransfer(userProfile.UserID, amt.String())
+	    - 利用API: Base coinの転送用のセッショントークンを発行する https://docs-blockchain.line.biz/ja/api-guide/category-users/issue#v1-users-userId-base-coin-request-transfer-post
+  		  - POST /v1/users/{user_id}/base-coin/request-transfer/?requestType=redirectUri
+		    - toAddress: config.GetAPIConfig().WalletAddress
+			- amount: amount
+			- landingUri: fmt.Sprintf("%s/swagger/index.html", config.GetAPIConfig().Endpoint)
+- サービストークン転送リクエスト
+  - service.RequestServiceTransfer
+	  - 利用API: サービストークンの転送用のセッショントークンを発行する# https://docs-blockchain.line.biz/ja/api-guide/category-users/issue#v1-users-userId-service-tokens-contractId-request-transfer-post
+	    - POST /v1/users/{user_id}/service-tokens/{contract_id}/request-transfer
+
+#### 購入フロー(購入確定)
 
 - Test Coinの決済トランザクション
   - 映画鑑賞券を購入するで承認したとおりユーザーウォレットからサービスウォレットに14TCを転送 ([コード](https://github.com/line/blockchain-sample-link-cinema/blob/master/controller/ticket.go#L325)
