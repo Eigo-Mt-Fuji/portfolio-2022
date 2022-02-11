@@ -45,7 +45,7 @@ https://pages.awscloud.com/rs/112-TZM-766/images/classmethos_0614%2B.pdf
 - [README-教養-座学-実用数学.md](./docs/README-教養-座学-実用数学.md)
 - [README-投資-実践-市況チェック.md](./docs/README-投資-実践-市況チェック.md)
 - [README-投資-実践-決算短信チェック.md](./docs/README-投資-実践-決算短信チェック.md)
-- [README-教養-座学-実用デザインパターン.md](./docs/README-教養-座学-実用デザインパターン.md)
+- [README-教養-座学-実用ITリテラシー.md](./docs/README-教養-座学-実用ITリテラシー.md)
 - [README-投資-実践-半導体市場理解度・解像度up.md](./docs/README-投資-実践-半導体市場理解度・解像度up.md)
 - [README-投資-実践-再生可能エネルギー理解度・解像度up.md](./docs/README-投資-実践-再生可能エネルギー理解度・解像度up.md)
 - [README-専門-ブロックチェーン.md](./docs/README-専門-ブロックチェーン.md)
