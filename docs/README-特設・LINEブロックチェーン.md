@@ -79,7 +79,15 @@
                 - 映画鑑賞券は、「Fungibleアイテムトークン」 と 「Non-fungibleアイテムトークン」どちらのアイテムトークンとして設計すべきか?
                     - 答え: Non-fungibleアイテムトークン
                     - 理由: 固有の情報が入っているnon-fungibleが適切
-
+    - 補足: リクエストセッショントークンとは?
+        - リクエストセッショントークンは、コインやサービストークンの転送やサービストークン・アイテムトークンの管理権限移譲を行う際、ユーザの承認を得た上で取引を確定させる(仕組みを実装する)ために払い出される、トークン(文字列)です
+  　　       - ブロックチェーンを利用したサービスで商品の購入などを実装する際、コインやサービストークンをユーザウォレットからサービスウォレットに転送する必要がある(注意: ユーザウォレットは利用者が保有するコインやトークンを保管する媒体です)
+            - このとき、商品購入に伴うコインやサービストークンの転送(=支払い)を、内容確認の上で承認してもらう
+        - リクエストセッショントークンの種類
+          - Base coinの転送用 
+          - サービストークンの転送用
+          - サービストークンの管理権限移譲用
+          - アイテムトークンの管理権限移譲用
 
 #### LINE Blockchainで商品購入機能を実装する方法(仕組み)を理解する
 - ウォレット内のコイン(TestCoin)で、映画鑑賞券を購入することを考える
@@ -446,13 +454,123 @@ curl -X POST 'localhost:8080/api/v0/ticket/purchase/commit/wlPHSLhwD6CQV2h******
 
 ### 処理シーケンスを記述する
 
-- ユーザ招待(テスト用コインの付与)
+#### ユーザ招待(テスト用コインの付与)
 
 ![img](http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/Eigo-Mt-Fuji/portfolio-2022/main/docs/line-blockchain-initial-transfer.txt)
 
-- ログインフロー
+#### ログイン・プロキシ設定
 
 ![img](http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/Eigo-Mt-Fuji/portfolio-2022/main/docs/line-blockchain-login-with-proxy.txt?hoge=true)
+
+#### 購入(購入確定)
+
+- Test Coinの決済トランザクション
+  - 映画鑑賞券を購入するで承認したとおりユーザーウォレットからサービスウォレットに14TCを転送 ([コード](https://github.com/line/blockchain-sample-link-cinema/blob/master/controller/ticket.go#L325)
+  - 利用API: ユーザーウォレットの署名トランザクションをコミット ここでは Base coinの転送をコミットする
+    - POST /v1/user-requests/{requestSessionToken}/commit
+      - https://docs-blockchain.line.biz/ja/api-guide/category-users/issue#v1-user-requests-requestSessionToken-commit-post
+        - requestSessionToken: ユーザーウォレットが発行したセッショントークン。
+
+```
+325	baseTx, err := service.CommitTransferRequest(baseSessionToken)
+326	if err != nil {
+327		c.String(500, err.Error())
+328		return
+329	}
+330	resp = append(resp, baseTx.TxHash)
+```
+
+- 会員ポイントの決済
+  - 映画鑑賞券を購入するで承認したとおりユーザーウォレットからサービスウォレットに1,000 MOVを転送します。([コード](https://github.com/line/blockchain-sample-link-cinema/blob/master/controller/ticket.go#L317)
+  - 利用API: ユーザーウォレットの署名トランザクションをコミット ここでは サービストークンの転送をコミットする
+    - POST /v1/user-requests/{requestSessionToken}/commit
+      - https://docs-blockchain.line.biz/ja/api-guide/category-users/issue#v1-user-requests-requestSessionToken-commit-post
+        - requestSessionToken: ユーザーウォレットが発行したセッショントークン。
+
+```
+316	if serviceSessionToken != movieTokenNotUsed {
+317		tx, err := service.CommitTransferRequest(serviceSessionToken)
+318		if err != nil {
+319			c.String(500, err.Error())
+320			return
+321		}
+322		resp = append(resp, tx.TxHash)
+323	}
+```
+
+- リワードトランザクション
+  - 購入価格の10%分のサービストークン(MOV)をユーザに進呈する
+    - 計算式: Total(price(20) - discount(6) = 14) * 1,000,000(=6 digit) * 10%(10 / 100) * 1000(1000MOV=で1TC割引) = 1400MOV
+      - 1000MOVで1TC割引
+      - クーポン1枚で 5TC割引
+  - 利用API: サービストークン転送
+    - POST /v1/wallets/{owner_wallet_address}/service-tokens/{contract_id}/transfer
+      - walletSecret: config.GetAPIConfig().WalletSecret
+      - toUserId: userID
+      - amount: amount
+  
+```
+307	serviceAmt := new(big.Int).Mul(big.NewInt(int64(purchaseInfo.PriceInfo.GrandTotal)), big.NewInt(1000000))
+308	serviceAmt.Div(serviceAmt, big.NewInt(10))
+309	serviceAmt.Mul(serviceAmt, big.NewInt(1000))
+310	serviceTx, err := service.TransferServiceToken(userProfile.UserID, serviceContractID, serviceAmt.String())
+311	if err != nil {
+312		c.String(500, err.Error())
+313		return
+314	}
+```
+
+- 映画鑑賞券の鋳造トランザクション
+    - ユーザーが購入した映画鑑賞券をnon-fungibleアイテムトークンで鋳造し、ユーザーウォレットに転送します。 [コード](https://github.com/line/blockchain-sample-link-cinema/blob/master/controller/ticket.go#L332)
+    - 利用API: Non-Fungibleアイテムトークン鋳造
+        - POST /v1/item-tokens/{contract_id}/non-fungibles/{token_type}/mint
+          - toUserId: userID
+          - name: "MovieTicket"
+          - meta:         string(marshaledMeta)
+          - ownerAddress: config.GetAPIConfig().WalletAddress
+          - ownerSecret:  config.GetAPIConfig().WalletSecret
+    - ヒント: 映画鑑賞券の鋳造とMintNonFungible
+        - 映画鑑賞券 = 固有の情報を持つ = NFT = NonFungible
+        - 鋳造トランザクション = 鋳造 = Mint
+
+```
+332	meta := service.NonFungibleMetadata{
+333		MovieInfo:  purchaseInfo.MovieInfo,
+334		TicketInfo: purchaseInfo.TicketInfo,
+335		PaymentInfo: service.PaymentInfo{
+336			PaymentDate:        time.Now(),
+337			PaymentTransaction: baseTx.TxHash,
+338			PointTransaction:   serviceTx.TxHash,
+339		},
+340	}
+341
+342	tx, err := service.MintNonFungible(userProfile.UserID, itemContractID, nonFungibleTokenType, meta)
+343	if err != nil {
+344		c.String(500, err.Error())
+345		return
+346	}
+347	resp = append(resp, tx.TxHash)
+```
+
+- 割引クーポンの焼却トランザクション
+    - 映画鑑賞券を購入するで使用した割引クーポン1枚をユーザーウォレットで焼却します。
+      - 利用API: アイテムトークン(Fungibleアイテムトークン)焼却
+          - POST /v1/item-tokens/{contract_id}/fungibles/{item_token_type}/burn
+              - amount:       amount
+              - fromUserId: userID
+              - ownerAddress: config.GetAPIConfig().WalletAddress
+              - ownerSecret: config.GetAPIConfig().WalletSecret
+
+```
+298	if fungibleAmt := purchaseInfo.PriceInfo.UsedFungible; fungibleAmt > 0 {
+299		tx, err := service.BurnFungible(userProfile.UserID, itemContractID, fungibleTokenType, strconv.Itoa(fungibleAmt))
+300		if err != nil {
+301			c.String(500, err.Error())
+302			return
+303		}
+304		resp = append(resp, tx.TxHash)
+305	}
+```
 
 ### LINE Blockchain SDKを使ってみる
 
