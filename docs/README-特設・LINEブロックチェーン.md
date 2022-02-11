@@ -17,11 +17,11 @@
 
 ## STEP1 学習・理解度UP
 
-### LINE Blockchainの開発用チャンネル作成・申請
+### LINE Blockchain開発用チャンネル作成(申請)
 
 - https://developers.line.biz/console/channel/1656844866/blockchain
 
-### LINE Blockchainの チュートリアル読み込み
+### チュートリアル読み込み
 
 - https://docs-blockchain.line.biz/ja/service-tutorial/
 
@@ -81,7 +81,7 @@
                     - 理由: 固有の情報が入っているnon-fungibleが適切
 
 
-#### LINE Blockchainでの商品購入を具体例に沿って理解する
+#### LINE Blockchainで商品購入機能を実装する方法(仕組み)を理解する
 - ウォレット内のコイン(TestCoin)で、映画鑑賞券を購入することを考える
   - 映画鑑賞券を購入するということは
     - ユーザーウォレットにあるTest Coin と サービスウォレットにあるMovieTicketアイテムトークンを交換すること
