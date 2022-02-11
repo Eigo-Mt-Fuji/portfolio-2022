@@ -140,7 +140,10 @@ https://pages.awscloud.com/rs/112-TZM-766/images/classmethos_0614%2B.pdf
 
 ![にゃんこ x 雪だるま](./img/20220103_085453.jpg)
 
-- 2月
+- 2月: 節分
+
+![にゃんこ x 節分](./img/cat_202202.jpg)
+
 - 3月
 - 4月
 - 5月
