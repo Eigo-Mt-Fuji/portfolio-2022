@@ -1,0 +1,71 @@
+@startuml
+
+Browser->Server: "open $SERVER_HOST/hoge/purchase"
+
+Server->Server: "セッションからUserID取得"
+
+opt "セッションからUserID取得できない(ログイン済みではない)場合"
+
+Browser<-Server: "redirect to login"
+
+end
+
+Server->"LINE(Blockchain)": "GET /v1/users/{user_id}/item-tokens/{contract_id}/proxy"
+Server<-"LINE(Blockchain)": isApproved
+
+opt "プロキシ設定済みではない場合(isApproved == false)"
+    Browser<-Server: "return 500 error page"
+end
+
+Server->"LINE(Blockchain)": "Baseコイン転送リクエスト POST /v1/users/{user_id}/base-coin/request-transfer/?requestType=redirectUri body=toAddress(ServiceWallet),amount,landingUri"
+Server<-"LINE(Blockchain)": "requestSessionToken, redirectUri"
+
+Server->Cookie: "コイン転送のrequestSessionTokenをCookieに保持"
+Browser<-Server: "コイン転送同意ページ(redirectUri)に遷移 https://lbw.line.me/grant/transfer/wlPHSLhwD6CQV2hE8**********"
+
+Browser->Server: "landingUriに遷移(コイン転送同意後)"
+
+Server->Cookie: "コイン転送のrequestSessionToken取得"
+Server<-Cookie: "requestSessionToken"
+
+Server->Cookie: "サービストークン転送のrequestSessionToken取得"
+Server<-Cookie: "requestSessionToken"
+
+opt "コイン転送リクエスト済み・サービストークン未転送の場合(コイン転送のrequestSessionTokenのみCookieから取得できた場合)"
+    Server->"LINE(Blockchain)": サービストークン転送リクエスト "POST /v1/users/{user_id}/service-tokens/{contract_id}/request-transfer"
+    Server<-"LINE(Blockchain)": "requestSessionToken, redirectUri"
+    Server->Cookie: "サービストークン転送のrequestSessionTokenをCookieに保持"
+    Browser<-Server: "サービストークン転送同意ページ(redirectUri)に遷移 https://lbw.line.me/grant/transfer/wlPHSLhwD6CQV2hE9**********"
+end
+
+Browser->Server: "landingUriに遷移(サービストークン転送同意後)"
+
+Server->Cookie: "コイン転送のrequestSessionToken取得"
+Server<-Cookie: "requestSessionToken"
+
+Server->Cookie: "サービストークン転送のrequestSessionToken取得"
+Server<-Cookie: "requestSessionToken"
+
+opt "コイン転送リクエスト済み・サービストークン転送済みの場合(両方ともCookieからrequestSessionToken取得できた場合)"
+
+  Server->"LINE(Blockchain)": "コイン転送確定(POST /v1/user-requests/{requestSessionToken}/commit)"
+  Server<-"LINE(Blockchain)": txHash
+
+  Server->"LINE(Blockchain)": "会員ポイントの決済(POST /v1/user-requests/{requestSessionToken}/commit)"
+  Server<-"LINE(Blockchain)": txHash
+
+  Server->"LINE(Blockchain)": "購入価格の10%分のサービストークン(MOV)をユーザに進呈(POST /v1/wallets/{owner_wallet_address}/service-tokens/{contract_id}/transfer)"
+  Server<-"LINE(Blockchain)": txHash
+
+  Server->"LINE(Blockchain)": "割引クーポンの焼却(POST /v1/item-tokens/{contract_id}/fungibles/{item_token_type}/burn)"
+  Server<-"LINE(Blockchain)": txHash
+
+  Server->"LINE(Blockchain)": "映画鑑賞券の鋳造・進呈(POST /v1/item-tokens/{contract_id}/non-fungibles/{token_type}/mint)"
+  Server<-"LINE(Blockchain)": txHash
+
+  Server->Cookie: "コイン転送のrequestSessionToken削除"
+  Server->Cookie: "サービストークン転送のrequestSessionToken削除"
+  Browser<-Server: 購入完了ページにリダイレクト
+end
+
+@enduml
