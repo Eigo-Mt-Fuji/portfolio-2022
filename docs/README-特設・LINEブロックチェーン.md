@@ -107,9 +107,12 @@
           - 映画鑑賞券を購入した観客のウォレットに、200 MOVを転送
             - https://docs-blockchain.line.biz/ja/api-guide/category-service-wallets/transfer#v1-wallets-walletAddress-service-tokens-contractId-transfer-post
 
-### LINKシネマのサンプルソースコードを読み込む　https://docs-blockchain.line.biz/ja/sample-services/Link-cinema
+### サンプルソースコード読み込み
 
 - 0. 準備
+
+    - LINKシネマという架空のサービスを題材としたサンプル
+        - https://docs-blockchain.line.biz/ja/sample-services/Link-cinema
 
     - ソース取得 
         - git clone https://github.com/line/blockchain-sample-link-cinema
