@@ -25,7 +25,7 @@
 
 - https://docs-blockchain.line.biz/ja/service-tutorial/
 
-### LINE Blockchainの サービストークンとアイテムトークンを学ぶ
+#### サービストークンとアイテムトークン
 
 - チュートリアルによると、サービストークンは会員向けポイント、アイテムトークンはサービスが具体的に提供する商品・景品などを定義するための概念
     - サービストークンについて
@@ -80,6 +80,14 @@
                     - 答え: Non-fungibleアイテムトークン
                     - 理由: 固有の情報が入っているnon-fungibleが適切
 
+
+#### LINE Blockchainでの商品購入を具体例に沿って理解する
+- ウォレット内のコイン(TestCoin)で、映画鑑賞券を購入することを考える
+  - 映画鑑賞券を購入するということは
+    - ユーザーウォレットにあるTest Coin と サービスウォレットにあるMovieTicketアイテムトークンを交換すること
+      - サービスウォレットは、サービス作成時に作られる在庫管理用の入れ物
+      - MovieTicketアイテムトークンは、映画鑑賞券に付随する固有の情報を含むNFTトークン
+
 ### LINE BITMAX Walletに登録してみる
 - ユーザーは、LINE BITMAX Walletに登録する必要がある
   - LINE Blockchainのサービス登録とは別に、LINE BITMAX Walletに登録する必要がある
@@ -98,13 +106,6 @@
         - サービストークンのMovieToken (MOV)を会員ポイントとして使用
           - 映画鑑賞券を購入した観客のウォレットに、200 MOVを転送
             - https://docs-blockchain.line.biz/ja/api-guide/category-service-wallets/transfer#v1-wallets-walletAddress-service-tokens-contractId-transfer-post
-
-### LINE Blockchainでの商品購入を具体例に沿って理解する
-- ウォレット内のコイン(TestCoin)で、映画鑑賞券を購入することを考える
-  - 映画鑑賞券を購入するということは
-    - ユーザーウォレットにあるTest Coin と サービスウォレットにあるMovieTicketアイテムトークンを交換すること
-      - サービスウォレットは、サービス作成時に作られる在庫管理用の入れ物
-      - MovieTicketアイテムトークンは、映画鑑賞券に付随する固有の情報を含むNFTトークン
 
 ### LINKシネマのサンプルソースコードを読み込む　https://docs-blockchain.line.biz/ja/sample-services/Link-cinema
 
