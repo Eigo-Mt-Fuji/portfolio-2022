@@ -444,7 +444,7 @@ curl -X POST 'localhost:8080/api/v0/ticket/purchase/commit/wlPHSLhwD6CQV2h******
 }'
 ```
 
-### 処理シーケンスを具体的に記述する
+### 処理シーケンスを記述する
 
 - ユーザ招待(テスト用コインの付与)
 
@@ -454,7 +454,7 @@ curl -X POST 'localhost:8080/api/v0/ticket/purchase/commit/wlPHSLhwD6CQV2h******
 
 ![img](http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/Eigo-Mt-Fuji/portfolio-2022/main/docs/line-blockchain-login-with-proxy.txt?hoge=true)
 
-### LINE Blockchain APIをSDK経由で実行してみる?
+### LINE Blockchain SDKを使ってみる
 
 ```
  curl -v -X POST https://test-api.blockchain.line.me/v1/item-tokens/59de2003/non-fungibles/10000001/mint -H "Content-Type: application/json" -H "service-api-key: 416b9d42-d2ce-431b-800b-6757e1adf83d" -H "nonce: d23bd1ba" -H "timestamp: 1643629852531" -H 'signature: PHclZF60qHbXJxIdV/Ijesm7kftyNg4D8K8KmAU8L38EdKB2IBEsCh0Qxqms2XlQZTSdu2XYTg3UMxWcmBjZpw==' -d '{"ownerAddress":"tlink1aavw9sk4349t3swa49l3zjmzd5cl4v46uxjc4m","ownerSecret":"psip40921cEiz64+e8hJWV2L+4j1GreQ/URnpV+2ocY=","name":"EI5NFT","toAddress":"tlink1g99r4sersjjn8p6jjjp566lt2tr0pr53wh9erg"}'
