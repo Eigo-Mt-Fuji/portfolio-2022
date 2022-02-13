@@ -22,6 +22,11 @@ https://jsprimer.net/
 ## Remix full stack web framework on React
 
 https://remix.run/
+impl BACKEND API 
+
+https://remix.run/docs/en/v1/guides/api-routes
+
+
 
 ## Svelte vs React
 
