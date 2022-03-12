@@ -148,6 +148,9 @@ https://pages.awscloud.com/rs/112-TZM-766/images/classmethos_0614%2B.pdf
 ![にゃんこ x 節分](./img/cat_202202.jpg)
 
 - 3月
+
+![にゃんこ x もうすぐ春](./img/cat_202203.jpg)
+
 - 4月
 - 5月
 - 6月
