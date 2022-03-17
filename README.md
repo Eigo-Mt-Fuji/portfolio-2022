@@ -57,14 +57,19 @@ https://pages.awscloud.com/rs/112-TZM-766/images/classmethos_0614%2B.pdf
 
 ## 創作タイトル - エンジニア目標
 
-- スマートディスプレイアプリ ミラノサンドA [※レイアウト設計＋素材案はこちら](https://app.diagrams.net/#G12l8XMCe8kaHduj4wLWBnQvOQZA5CLpkd)
-   - ドトール好きすぎてポイント２万ポイント超えとか貯まりすぎ... 
-       - そうだ！ドトールのミラノサンドAの注文うけるミニゲームつくろう！
-
 - パーソナライズド拡張現実
-   - パーソナライズドはまず自分用
-   - 拡張現実の技術は、nreal lightだからunlty? それとも[web ar?](https://github.com/Eigo-Mt-Fuji/portfolio-2021/blob/main/docs/README-%E5%80%8B%E4%BA%BA%E5%AD%A6%E7%BF%92-20211215.md#1219-%E6%8B%A1%E5%BC%B5%E7%8F%BE%E5%AE%9Far%E3%81%AEsdk%E3%82%92%E8%AA%BF%E6%9F%BB%E3%81%99%E3%82%8B-web-ar-%E7%B7%A8)
+   - 拡張現実の技術は、nreal lightだからunlty?
+   - [web ar?](https://github.com/Eigo-Mt-Fuji/portfolio-2021/blob/main/docs/README-%E5%80%8B%E4%BA%BA%E5%AD%A6%E7%BF%92-20211215.md#1219-%E6%8B%A1%E5%BC%B5%E7%8F%BE%E5%AE%9Far%E3%81%AEsdk%E3%82%92%E8%AA%BF%E6%9F%BB%E3%81%99%E3%82%8B-web-ar-%E7%B7%A8)
    - 2021に会員証システム作った経験。喫茶店好き。ネコ好きを合わせる
+
+
+## 実験
+
+### AWS CloudQuest
+
+![img](./img/____________________________2022-03-17_16.29.56.png)
+
+![img](./img/____________________________2022-03-17_17.28.14.png)
 
 ## 備考: ５つの目的と５つの作戦
 
