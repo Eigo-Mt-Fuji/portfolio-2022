@@ -53,7 +53,6 @@ https://pages.awscloud.com/rs/112-TZM-766/images/classmethos_0614%2B.pdf
 - [README-投資-実践-再生可能エネルギー理解度・解像度up.md](./docs/README-投資-実践-再生可能エネルギー理解度・解像度up.md)
 - [README-専門-ブロックチェーン.md](./docs/README-専門-ブロックチェーン.md)
 - [README-専門-プログラミング基礎学習.md](./docs/README-専門-プログラミング基礎学習.md)
-- [README-特設・LINEブロックチェーン.md](./docs/README-特設・LINEブロックチェーン.md)
 
 ## 創作タイトル - エンジニア目標
 
@@ -70,6 +69,10 @@ https://pages.awscloud.com/rs/112-TZM-766/images/classmethos_0614%2B.pdf
 ![img](./img/____________________________2022-03-17_16.29.56.png)
 
 ![img](./img/____________________________2022-03-17_17.28.14.png)
+
+### ブロックチェーン
+
+- [README-特設・LINEブロックチェーン.md](./docs/README-特設・LINEブロックチェーン.md)
 
 ## 備考: ５つの目的と５つの作戦
 
