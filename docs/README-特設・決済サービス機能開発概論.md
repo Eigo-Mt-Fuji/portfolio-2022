@@ -8,3 +8,5 @@
 - 後払い決済の仕組み
 
   - TBD
+     - https://www.sbpayment.jp/support/ec/about-atobarai/#clm_indx_02
+
