@@ -10,3 +10,6 @@
 [submodule "playground/fx-report"]
 	path = playground/fx-report
 	url = git@github.com:Eigo-Mt-Fuji/fx-report.git
+[submodule "playground/nestjs-subject"]
+	path = playground/nestjs-subject
+	url = git@github.com:Eigo-Mt-Fuji/nestjs-subject.git
