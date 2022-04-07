@@ -12,4 +12,4 @@
 	url = git@github.com:Eigo-Mt-Fuji/fx-report.git
 [submodule "playground/nestjs-subject"]
 	path = playground/nestjs-subject
-	url = git@github.com:Eigo-Mt-Fuji/nestjs-subject.git
+	url = git@github.com:Eigo-Mt-Fuji/fx-report-api.git
