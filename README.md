@@ -13,6 +13,31 @@
 
 <img width=400 src="./docs/Screenshot_20220104-023137.jpg" />
 
+- [README-専門-XR・メタバース.md](./docs/README-専門-XR・メタバース.md)
+- [README-教養-座学-歴史.md](./docs/README-教養-座学-歴史.md)
+- [README-教養-座学-実用数学.md](./docs/README-教養-座学-実用数学.md)
+- [README-投資-実践-市況チェック.md](./docs/README-投資-実践-市況チェック.md)
+- [README-投資-実践-決算短信チェック.md](./docs/README-投資-実践-決算短信チェック.md)
+- [README-教養-座学-実用ITリテラシー.md](./docs/README-教養-座学-実用ITリテラシー.md)
+- [README-投資-実践-半導体市場理解度・解像度up.md](./docs/README-投資-実践-半導体市場理解度・解像度up.md)
+- [README-投資-実践-再生可能エネルギー理解度・解像度up.md](./docs/README-投資-実践-再生可能エネルギー理解度・解像度up.md)
+- [README-専門-ブロックチェーン.md](./docs/README-専門-ブロックチェーン.md)
+- [README-専門-プログラミング基礎学習.md](./docs/README-専門-プログラミング基礎学習.md)
+- [README-特設・LINEブロックチェーン.md](./docs/README-特設・LINEブロックチェーン.md)
+
+- [エンジニア目標はこちら](https://github.com/Eigo-Mt-Fuji/portfolio-2021/blob/main/docs/README-%E5%80%8B%E4%BA%BA%E5%AD%A6%E7%BF%92-20211215.md#1219-%E6%8B%A1%E5%BC%B5%E7%8F%BE%E5%AE%9Far%E3%81%AEsdk%E3%82%92%E8%AA%BF%E6%9F%BB%E3%81%99%E3%82%8B-web-ar-%E7%B7%A8)
+
+- 仕事の方は別↓で見ていく。
+
+[![img](./img/jigyoshinchoku.png)](https://github.com/Eigo-Mt-Fuji/efg-confidential/blob/main/%E4%BA%8B%E6%A5%AD%E9%80%B2%E6%8D%97.md)
+
+- 実験
+  - AWS CloudQuest
+
+![img](./img/____________________________2022-03-17_16.29.56.png)
+
+![img](./img/____________________________2022-03-17_17.28.14.png)
+
 ## ５つの目的と５つの作戦
 
 - 自分の生涯学習項目に目的と作戦を当てはめる
@@ -80,37 +105,7 @@
 - 脳トレ-脳の処理速度を高めるトレーニングをどうぞ.
   - https://jp.rohto.com/kidseye/v-rohto-junior/sokunou-training/#ranking
 
-## 目次
-
-- [README-専門-XR・メタバース.md](./docs/README-専門-XR・メタバース.md)
-- [README-教養-座学-歴史.md](./docs/README-教養-座学-歴史.md)
-- [README-教養-座学-実用数学.md](./docs/README-教養-座学-実用数学.md)
-- [README-投資-実践-市況チェック.md](./docs/README-投資-実践-市況チェック.md)
-- [README-投資-実践-決算短信チェック.md](./docs/README-投資-実践-決算短信チェック.md)
-- [README-教養-座学-実用ITリテラシー.md](./docs/README-教養-座学-実用ITリテラシー.md)
-- [README-投資-実践-半導体市場理解度・解像度up.md](./docs/README-投資-実践-半導体市場理解度・解像度up.md)
-- [README-投資-実践-再生可能エネルギー理解度・解像度up.md](./docs/README-投資-実践-再生可能エネルギー理解度・解像度up.md)
-- [README-専門-ブロックチェーン.md](./docs/README-専門-ブロックチェーン.md)
-- [README-専門-プログラミング基礎学習.md](./docs/README-専門-プログラミング基礎学習.md)
-- [README-特設・LINEブロックチェーン.md](./docs/README-特設・LINEブロックチェーン.md)
-
-- [エンジニア目標はこちら](https://github.com/Eigo-Mt-Fuji/portfolio-2021/blob/main/docs/README-%E5%80%8B%E4%BA%BA%E5%AD%A6%E7%BF%92-20211215.md#1219-%E6%8B%A1%E5%BC%B5%E7%8F%BE%E5%AE%9Far%E3%81%AEsdk%E3%82%92%E8%AA%BF%E6%9F%BB%E3%81%99%E3%82%8B-web-ar-%E7%B7%A8)
-
-## 仕事の方は?
-
-- 仕事の方は別↓で見ていく。
-
-- [![img](./img/jigyoshinchoku.png)](https://github.com/Eigo-Mt-Fuji/efg-confidential/blob/main/%E4%BA%8B%E6%A5%AD%E9%80%B2%E6%8D%97.md)
-
-## 実験
-
-### AWS CloudQuest
-
-![img](./img/____________________________2022-03-17_16.29.56.png)
-
-![img](./img/____________________________2022-03-17_17.28.14.png)
-
-## 学習支援プロセスとフレームワーク
+## 学習支援プロセス
 
 - 学習支援は、現状把握／目標設定／（目的と作戦に基づく）適切なフォロー／啓発を行う
     - 現状把握と目標設定は、泥臭い。
@@ -124,15 +119,18 @@
 
     - 啓発は、活躍している人の激励による啓発効果は大きい。実際に続けていて、できることは大事。知っている、わかっていることは必須。
 
-- 学習を実践する人の現状を捉えるときに役立つフレームワーク
-    - マズローの欲求5段階説  https://prdx.co.jp/visions-prdx/maslow/#:~:text=%E3%83%9E%E3%82%BA%E3%83%AD%E3%83%BC%E3%81%AE%E6%AC%B2%E6%B1%825%E6%AE%B5%E9%9A%8E%E8%AA%AC%E3%81%A8%E3%81%AF%E3%80%81%E4%BA%BA%E9%96%93%E3%81%AE,%E3%81%AE%E7%90%86%E8%AB%96%E3%81%AE%E3%81%93%E3%81%A8%E3%81%A7%E3%81%99%E3%80%82&text=%E3%83%9E%E3%82%BA%E3%83%AD%E3%83%BC%E3%81%AE%E6%AC%B2%E6%B1%825%E6%AE%B5%E9%9A%8E%E8%AA%AC%E3%81%AB%E3%82%88%E3%82%8C%E3%81%B0%E3%80%81%E4%BA%BA%E9%96%93,%E5%BA%8F%E5%88%97%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82
-        - 生理的欲求＜安全の欲求＜社会的欲求＜承認欲求＜自己実現
+## 学習状況確認フレームワーク
 
-    - 能力開発の４つのステップ https://globis.jp/article/5149 
-        - 知る、わかる、できる、教える 　
+`学習を実践する人の現状を捉えるときに役立つ3つのフレームワーク`
 
-    - 学びの7段階 http://www.foster1.com/article/15206388.html
-        - 1.知る · 2.わかる · 3.行う · 4.続ける · 5.できる · 6.教える · 7.成長する（本当にわかる）
+- マズローの欲求5段階説  https://prdx.co.jp/visions-prdx/maslow/#:~:text=%E3%83%9E%E3%82%BA%E3%83%AD%E3%83%BC%E3%81%AE%E6%AC%B2%E6%B1%825%E6%AE%B5%E9%9A%8E%E8%AA%AC%E3%81%A8%E3%81%AF%E3%80%81%E4%BA%BA%E9%96%93%E3%81%AE,%E3%81%AE%E7%90%86%E8%AB%96%E3%81%AE%E3%81%93%E3%81%A8%E3%81%A7%E3%81%99%E3%80%82&text=%E3%83%9E%E3%82%BA%E3%83%AD%E3%83%BC%E3%81%AE%E6%AC%B2%E6%B1%825%E6%AE%B5%E9%9A%8E%E8%AA%AC%E3%81%AB%E3%82%88%E3%82%8C%E3%81%B0%E3%80%81%E4%BA%BA%E9%96%93,%E5%BA%8F%E5%88%97%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82
+  - 生理的欲求＜安全の欲求＜社会的欲求＜承認欲求＜自己実現
+
+- 能力開発の４つのステップ https://globis.jp/article/5149 
+  - 知る、わかる、できる、教える 　
+
+- 学びの7段階 http://www.foster1.com/article/15206388.html
+  - 1.知る · 2.わかる · 3.行う · 4.続ける · 5.できる · 6.教える · 7.成長する（本当にわかる）
 
 ## 付録: やる気が出るスライド
 
