@@ -29,7 +29,7 @@
   - こちらをどうぞ
     - https://twitter.com/_rokujo/status/1519838790562754560?t=X49bvIbda5YVtXU1HqoTiw&s=19
 
-- 詳細はissueで検討していく
+- 詳細なプランはissueで検討していく
   - [[能力開発]このリポジトリのねらい～持続的能力開発～ #37 good first issue](https://github.com/Eigo-Mt-Fuji/efg-confidential/issues/37)
 
 - ５つの目的
@@ -95,6 +95,12 @@
 - [README-特設・LINEブロックチェーン.md](./docs/README-特設・LINEブロックチェーン.md)
 
 - [エンジニア目標はこちら](https://github.com/Eigo-Mt-Fuji/portfolio-2021/blob/main/docs/README-%E5%80%8B%E4%BA%BA%E5%AD%A6%E7%BF%92-20211215.md#1219-%E6%8B%A1%E5%BC%B5%E7%8F%BE%E5%AE%9Far%E3%81%AEsdk%E3%82%92%E8%AA%BF%E6%9F%BB%E3%81%99%E3%82%8B-web-ar-%E7%B7%A8)
+
+## 仕事の方は?
+
+- 仕事の方は別↓で見ていく。
+
+- [![img](./img/jigyoshinchoku.png)](https://github.com/Eigo-Mt-Fuji/efg-confidential/blob/main/%E4%BA%8B%E6%A5%AD%E9%80%B2%E6%8D%97.md)
 
 ## 実験
 
