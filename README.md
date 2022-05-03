@@ -15,9 +15,6 @@
 
 ## ５つの目的と５つの作戦
 
-- 生涯学習ってなに?おいしいの
-  - 参考: https://twitter.com/_rokujo/status/1519838790562754560?t=X49bvIbda5YVtXU1HqoTiw&s=19
-
 - 自分の生涯学習項目に目的と作戦を当てはめる
 
 |やりたいこと|目的|作戦|
@@ -28,16 +25,17 @@
 |ブロックチェーン|専門教養|効率だいじに,精度だいじに |
 |SDGs|基礎教養|感覚だいじに|
 
+- 生涯学習ってなに?おいしいのという方
+  - こちらをどうぞ
+    - https://twitter.com/_rokujo/status/1519838790562754560?t=X49bvIbda5YVtXU1HqoTiw&s=19
+
 - 詳細はissueで検討していく
   - [[能力開発]このリポジトリのねらい～持続的能力開発～ #37 good first issue](https://github.com/Eigo-Mt-Fuji/efg-confidential/issues/37)
-
-- 脳トレ-脳の処理速度を高めるトレーニングをどうぞ.
-  - https://jp.rohto.com/kidseye/v-rohto-junior/sokunou-training/#ranking
 
 - ５つの目的
 
 |目的|説明|
-|:----:|:----:|
+|:----:|:----|
 |創作|自分で創るための学習|
 |仕事|お仕事のための学習|
 |資金|お金を稼ぐための学習|
@@ -78,6 +76,9 @@
     - 適切なチェックと手直しが必要。
   - 成果だいじに
     - 感覚と精度と行動と効率ぜんぶあわせた作戦になる。センスと勘に任せてタイミングを測ってアウトプット
+
+- 脳トレ-脳の処理速度を高めるトレーニングをどうぞ.
+  - https://jp.rohto.com/kidseye/v-rohto-junior/sokunou-training/#ranking
 
 ## 目次
 
