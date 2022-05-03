@@ -40,6 +40,8 @@ https://pages.awscloud.com/rs/112-TZM-766/images/classmethos_0614%2B.pdf
 
 ## ライフワーク-人間的目標
 
+- 生涯学習って必要?
+  - https://twitter.com/_rokujo/status/1519838790562754560?t=X49bvIbda5YVtXU1HqoTiw&s=19
 - 脳トレ-脳の処理速度を高めるトレーニング
   - https://jp.rohto.com/kidseye/v-rohto-junior/sokunou-training/#ranking
 
