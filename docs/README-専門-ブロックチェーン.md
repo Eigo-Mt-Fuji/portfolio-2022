@@ -1,27 +1,15 @@
-## なかよし７（なかよしセブン）
 
-ブロックチェーンと仲良くなるための７つのステップ。おやくそく。
+## 利用イメージ 
 
-STEP1 身近な接点 実物を手元に。
+- 香取慎吾NFTチャリティ LINEブロックチェーン 
 
-STEP2 おもしろさがある https://twitter.com/loblium/status/1476872406937780231?t=f6Z2_TukWCf0LbumxEKAMw&s=19
+https://contents.atarashiichizu.com/?page_id=16397
 
-<img width=300 src="./Screenshot_20220103-104542_Kiwi%20Browser.jpg"/>
+## 座学候補
 
-STEP3 利用シーン
-https://twitter.com/yusuket777/status/1478520432089190401?t=y700SKhbi__jg0wK79fDaA&s=19 
-香取慎吾NFTチャリティ LINEブロックチェーン https://contents.atarashiichizu.com/?page_id=16397
-2022年はDAOの年になる?NFT x DAO 非中央集権型組織 https://www.fisco.co.jp/media/crypto/dao-about/#index_id5
+https://twitter.com/yusuket777/status/1478520432089190401?t=y700SKhbi__jg0wK79fDaA&s=19
 
-STEP4 実現方法がわかる https://baasinfo.net/?p=3791#outline__3_1 https://symbolplatform.com/
-  - ビットコイン(ブロックチェーン)の概念の学習
-  - イーサリアムとスマートコントラクトの概念の学習
-  - イーサリアムノード(Geth)の学習
-  - スマートコントラクトを書く言語(Solidity)の学習
-  - スマートコントラクトへアクセスするためのクライアントツール(web3.js)の学習
-  - 開発フレームワーク(Truffle)の学習
-
-STEP5 開発の要点がわかる https://baasinfo.net/?p=3791#outline__3_1 https://speakerdeck.com/okapies/nfttohahe-dehanaika?slide=12
+https://baasinfo.net/?p=3791#outline__3_1 https://speakerdeck.com/okapies/nfttohahe-dehanaika?slide=12
 
 1. はじめに
 2. そもそもブロックチェーンとは
@@ -43,8 +31,11 @@ STEP5 開発の要点がわかる https://baasinfo.net/?p=3791#outline__3_1 http
 3.8. 7. その他、Quorum, Corda, HyperledgerなどのEthereum以外のブロックチェーンの学習
 4. 終わりに
 
-STEP6 開発の課題がわかる https://gigazine.net/news/20220125-opensea-user-steal-nfts/
+## 座学履歴
 
-STEP7 さあがんばろう！
+https://github.com/Eigo-Mt-Fuji/portfolio-2022/issues/8
+https://github.com/Eigo-Mt-Fuji/portfolio-2022/issues/9
+
+## 実習
 
 https://github.com/Eigo-Mt-Fuji/portfolio-2022/blob/main/docs/README-%E7%89%B9%E8%A8%AD%E3%83%BBLINE%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3.md#line-blockchain%E3%81%AE-%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E3%81%A8%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E3%82%92%E5%AD%A6%E3%81%B6
