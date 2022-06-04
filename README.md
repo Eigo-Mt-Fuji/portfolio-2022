@@ -178,7 +178,11 @@ https://pages.awscloud.com/rs/112-TZM-766/images/classmethos_0614%2B.pdf
 
 ![にゃんこ x 5月尾道猫](./img/cat_202205.jpg)
 
-- 6月
+- 6月:梅雨入にゃんこ
+
+![にゃんこ x 6月梅雨猫](./img/cat_202206.jpg)
+
+
 - 7月
 - 8月
 - 9月
