@@ -26,7 +26,7 @@
 - [README-特設・LINEブロックチェーン.md](./docs/README-特設・LINEブロックチェーン.md)
 
 - [エンジニア目標はこちら](https://github.com/Eigo-Mt-Fuji/portfolio-2021/blob/main/docs/README-%E5%80%8B%E4%BA%BA%E5%AD%A6%E7%BF%92-20211215.md#1219-%E6%8B%A1%E5%BC%B5%E7%8F%BE%E5%AE%9Far%E3%81%AEsdk%E3%82%92%E8%AA%BF%E6%9F%BB%E3%81%99%E3%82%8B-web-ar-%E7%B7%A8)
-- [夏休み - イーサリアムを学ぶノート](https://note.com/efujikawa/m/m47203006ff7d)
+- [イーサリアムを学ぶノート～イーサリアムを学んで過ごす夏休みの1ヶ月を書く～](https://note.com/efujikawa/m/m47203006ff7d)
 - [お仕事の進捗はこちら](https://github.com/Eigo-Mt-Fuji/efg-confidential/blob/main/%E4%BA%8B%E6%A5%AD%E9%80%B2%E6%8D%97.md)
 
 - 実験
