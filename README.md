@@ -182,8 +182,10 @@ https://pages.awscloud.com/rs/112-TZM-766/images/classmethos_0614%2B.pdf
 
 ![にゃんこ x 6月梅雨猫](./img/cat_202206.jpg)
 
+- 7月: 七夕にゃんこ
 
-- 7月
+![にゃんこ x 7月七夕](./img/cat_202207.png)
+
 - 8月
 - 9月
 - 10月
