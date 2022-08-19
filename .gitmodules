@@ -13,3 +13,9 @@
 [submodule "playground/fx-report-api"]
 	path = playground/fx-report-api
 	url = git@github.com:Eigo-Mt-Fuji/fx-report-api.git
+[submodule "nextjs-neardev-rust-template"]
+	path = playground/awesome-rust-dapp
+	url = git@github.com:Eigo-Mt-Fuji/nextjs-neardev-rust-template.git
+[submodule "my-zenn-dev"]
+	path = playground/my-zenn-dev
+	url = git@github.com:Eigo-Mt-Fuji/my-zenn-dev.git
