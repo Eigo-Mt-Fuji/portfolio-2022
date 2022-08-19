@@ -29,6 +29,7 @@
 - [イーサリアムを学ぶノート～イーサリアムを学んで過ごす夏休みの1ヶ月を書く～](https://note.com/efujikawa/m/m47203006ff7d)
 - [Rust学習ノート#1](https://note.com/efujikawa/m/m0a8f4652a667)
 - [RustとdApp開発を実際やってみるノート](https://note.com/efujikawa/m/m2b7793629425)
+- [英単語暗記環境づくり - AnkiとAnki-Connect導入～Macとスマホで同期～](https://note.com/efujikawa/n/n88031af778f8)
 - [お仕事の進捗はこちら](https://github.com/Eigo-Mt-Fuji/efg-confidential/blob/main/%E4%BA%8B%E6%A5%AD%E9%80%B2%E6%8D%97.md)
 
 - 実験
