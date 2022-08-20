@@ -28,6 +28,19 @@
   - [RustとdApp開発を実際やってみるノート](https://note.com/efujikawa/m/m2b7793629425)
   - [英単語暗記環境づくり - AnkiとAnki-Connect導入～Macとスマホで同期～](https://note.com/efujikawa/n/n88031af778f8)
     - [diagram](https://app.diagrams.net/#G1bEddP9Vjb1q12D9y6nF_VFy55yIG3H2v)
+
+- 4Q
+  - 次年度以降のOSSコミットメントに向けた準備活動
+    - https://github.com/Eigo-Mt-Fuji/efg-confidential/issues/46#issuecomment-1221325383
+        - OSSへのコミットのお作法と要件を把握して、言語化する
+        - 得意分野の狙いを定める
+        - 要件を満たす準備に時間を当てる
+            - 対象分野のキャッチアップ(方法を考えること、実践すること)
+            - 英語力
+            - 開発ツールの熟練度を高めて（たとえ仕事をしながらでも）短時間で効率的なコミットができる状態にする
+        - OSSコミッティーの入り込み方をイメージトレーニングする
+        - 後はやって見るだけ！
+
 - 検討中
   - [README-専門-XR・メタバース.md](./docs/README-専門-XR・メタバース.md)
   - [README-教養-座学-歴史.md](./docs/README-教養-座学-歴史.md)
