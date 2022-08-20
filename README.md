@@ -262,7 +262,10 @@ https://pages.awscloud.com/rs/112-TZM-766/images/classmethos_0614%2B.pdf
 
 ![にゃんこ x 7月七夕](./img/cat_202207.png)
 
-- 8月
+- 8月: ネコと海と夏
+
+![にゃんこ x 8月ネコと海と夏](./img/cat_202208.png)
+
 - 9月
 - 10月
 - 11月
