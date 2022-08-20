@@ -13,25 +13,29 @@
 
 <img width=400 src="./docs/Screenshot_20220104-023137.jpg" />
 
-- [README-専門-XR・メタバース.md](./docs/README-専門-XR・メタバース.md)
-- [README-教養-座学-歴史.md](./docs/README-教養-座学-歴史.md)
-- [README-教養-座学-実用数学.md](./docs/README-教養-座学-実用数学.md)
-- [README-投資-実践-市況チェック.md](./docs/README-投資-実践-市況チェック.md)
-- [README-投資-実践-決算短信チェック.md](./docs/README-投資-実践-決算短信チェック.md)
-- [README-教養-座学-実用ITリテラシー.md](./docs/README-教養-座学-実用ITリテラシー.md)
-- [README-投資-実践-半導体市場理解度・解像度up.md](./docs/README-投資-実践-半導体市場理解度・解像度up.md)
-- [README-投資-実践-再生可能エネルギー理解度・解像度up.md](./docs/README-投資-実践-再生可能エネルギー理解度・解像度up.md)
-- [README-専門-ブロックチェーン.md](./docs/README-専門-ブロックチェーン.md)
-- [README-専門-プログラミング基礎学習.md](./docs/README-専門-プログラミング基礎学習.md)
-- [README-特設・LINEブロックチェーン.md](./docs/README-特設・LINEブロックチェーン.md)
+- 1Q
+  - [エンジニア目標はこちら](https://github.com/Eigo-Mt-Fuji/portfolio-2021/blob/main/docs/README-%E5%80%8B%E4%BA%BA%E5%AD%A6%E7%BF%92-20211215.md#1219-%E6%8B%A1%E5%BC%B5%E7%8F%BE%E5%AE%9Far%E3%81%AEsdk%E3%82%92%E8%AA%BF%E6%9F%BB%E3%81%99%E3%82%8B-web-ar-%E7%B7%A8)
+  - [お仕事の進捗はこちら](https://github.com/Eigo-Mt-Fuji/efg-confidential/blob/main/%E4%BA%8B%E6%A5%AD%E9%80%B2%E6%8D%97.md)
 
-- [エンジニア目標はこちら](https://github.com/Eigo-Mt-Fuji/portfolio-2021/blob/main/docs/README-%E5%80%8B%E4%BA%BA%E5%AD%A6%E7%BF%92-20211215.md#1219-%E6%8B%A1%E5%BC%B5%E7%8F%BE%E5%AE%9Far%E3%81%AEsdk%E3%82%92%E8%AA%BF%E6%9F%BB%E3%81%99%E3%82%8B-web-ar-%E7%B7%A8)
-- [イーサリアムを学ぶノート～イーサリアムを学んで過ごす夏休みの1ヶ月を書く～](https://note.com/efujikawa/m/m47203006ff7d)
-- [Rust学習ノート#1](https://note.com/efujikawa/m/m0a8f4652a667)
-- [RustとdApp開発を実際やってみるノート](https://note.com/efujikawa/m/m2b7793629425)
-- [英単語暗記環境づくり - AnkiとAnki-Connect導入～Macとスマホで同期～](https://note.com/efujikawa/n/n88031af778f8)
-  - [diagram](https://app.diagrams.net/#G1bEddP9Vjb1q12D9y6nF_VFy55yIG3H2v)
-- [お仕事の進捗はこちら](https://github.com/Eigo-Mt-Fuji/efg-confidential/blob/main/%E4%BA%8B%E6%A5%AD%E9%80%B2%E6%8D%97.md)
+- 2Q
+  - [README-教養-座学-実用ITリテラシー.md](./docs/README-教養-座学-実用ITリテラシー.md)
+  - [README-専門-プログラミング基礎学習.md](./docs/README-専門-プログラミング基礎学習.md)
+  - [README-特設・LINEブロックチェーン.md](./docs/README-特設・LINEブロックチェーン.md)
+
+- 3Q
+  - [イーサリアムを学ぶノート～イーサリアムを学んで過ごす夏休みの1ヶ月を書く～](https://note.com/efujikawa/m/m47203006ff7d)
+  - [Rust学習ノート#1](https://note.com/efujikawa/m/m0a8f4652a667)
+  - [RustとdApp開発を実際やってみるノート](https://note.com/efujikawa/m/m2b7793629425)
+  - [英単語暗記環境づくり - AnkiとAnki-Connect導入～Macとスマホで同期～](https://note.com/efujikawa/n/n88031af778f8)
+    - [diagram](https://app.diagrams.net/#G1bEddP9Vjb1q12D9y6nF_VFy55yIG3H2v)
+- 検討中
+  - [README-専門-XR・メタバース.md](./docs/README-専門-XR・メタバース.md)
+  - [README-教養-座学-歴史.md](./docs/README-教養-座学-歴史.md)
+  - [README-教養-座学-実用数学.md](./docs/README-教養-座学-実用数学.md)
+  - [README-投資-実践-市況チェック.md](./docs/README-投資-実践-市況チェック.md)
+  - [README-投資-実践-決算短信チェック.md](./docs/README-投資-実践-決算短信チェック.md)
+  - [README-投資-実践-半導体市場理解度・解像度up.md](./docs/README-投資-実践-半導体市場理解度・解像度up.md)
+  - [README-投資-実践-再生可能エネルギー理解度・解像度up.md](./docs/README-投資-実践-再生可能エネルギー理解度・解像度up.md)
 
 - 実験
   - AWS CloudQuest
