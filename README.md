@@ -5,6 +5,7 @@
 
 - [生涯学習の５つの目的と５つの作戦](#５つの目的と５つの作戦)
 
+
 イメージ動画: ツッパることが男の勲章
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/9OR5fqDQl9Y/0.jpg)](https://www.youtube.com/watch?v=9OR5fqDQl9Y "Video Title")
@@ -12,6 +13,8 @@
 ボクたちだけのエンジニア流 **フルコース** を作っていく!
 
 <img width=400 src="./docs/Screenshot_20220104-023137.jpg" />
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/d0yGdNEWdn0/0.jpg)](https://youtu.be/d0yGdNEWdn0 "Video Title")
 
 - 1Q
   - [エンジニア目標はこちら](https://github.com/Eigo-Mt-Fuji/portfolio-2021/blob/main/docs/README-%E5%80%8B%E4%BA%BA%E5%AD%A6%E7%BF%92-20211215.md)
