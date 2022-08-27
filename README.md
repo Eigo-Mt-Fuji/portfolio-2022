@@ -14,7 +14,7 @@
 
 <img width=400 src="./docs/Screenshot_20220104-023137.jpg" />
 
-どんな外国語でも半年でマスターしてしまう方法
+TED どんな外国語でも半年でマスターしてしまう方法
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/d0yGdNEWdn0/0.jpg)](https://youtu.be/d0yGdNEWdn0 "Video Title")
 
