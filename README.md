@@ -35,6 +35,7 @@ TED どんな外国語でも半年でマスターしてしまう方法
     - [diagram](https://app.diagrams.net/#G1bEddP9Vjb1q12D9y6nF_VFy55yIG3H2v)
 
 - 4Q
+  - [Anki駆動英語学習の経過 - 目標とAnkiデッキ選択](https://note.com/efujikawa/n/n8ba1f69749a2)
   - 次年度以降のOSSコミットメントに向けた準備活動
     - https://github.com/Eigo-Mt-Fuji/efg-confidential/issues/46#issuecomment-1221325383
         - OSSへのコミットのお作法と要件を把握して、言語化する
