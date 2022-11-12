@@ -290,7 +290,13 @@ https://pages.awscloud.com/rs/112-TZM-766/images/classmethos_0614%2B.pdf
 ![にゃんこ x 9月ネコとルンバ](./img/cat_202209.jpg)
 
 - 10月
+
+![にゃんこ x 10月ハロウィーン](./img/cat_202210.jpg)
+
 - 11月
+
+![にゃんこ x 11月紅葉](./img/cat_202211.jpg)
+
 - 12月
 
 - 修了
