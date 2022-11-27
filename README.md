@@ -10,6 +10,14 @@
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/9OR5fqDQl9Y/0.jpg)](https://www.youtube.com/watch?v=9OR5fqDQl9Y "Video Title")
 
+落合陽一のシンギュラリティ論
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/j2TbvmXN_Y4/0.jpg)](https://www.youtube.com/watch?v=j2TbvmXN_Y4 "Video Title")
+
+リスキリング
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/ZwOuT_KFHcQ/0.jpg)](https://www.youtube.com/watch?v=ZwOuT_KFHcQ "Video Title")
+
+
 ボクたちだけのエンジニア流 **フルコース** を作っていく!
 
 <img width=400 src="./docs/Screenshot_20220104-023137.jpg" />
