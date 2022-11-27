@@ -44,6 +44,11 @@ TED どんな外国語でも半年でマスターしてしまう方法
 
 - 4Q
   - [Anki駆動英語学習の経過 - 目標とAnkiデッキ選択](https://note.com/efujikawa/n/n8ba1f69749a2)
+  - [Anki駆動英語学習の経過 - 進捗と改善(English Grammar in Useデッキの導入)](https://note.com/efujikawa/n/nfd860def3d9c)
+    - 基本とロマン
+      - 慣用句・慣用表現(イディオム)の学習コンテンツや学習方法を調べる。
+      - 満足度をたかくするため、英作文のグレードを高める（ロマンある作文のコツ情報集め)
+      - 素早く組み合わせる特訓(キングダム状況描写 / 読み応えのある英文を仕上げる)
   - 次年度以降のOSSコミットメントに向けた準備活動
     - https://github.com/Eigo-Mt-Fuji/efg-confidential/issues/46#issuecomment-1221325383
         - OSSへのコミットのお作法と要件を把握して、言語化する
